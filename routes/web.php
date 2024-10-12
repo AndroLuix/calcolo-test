@@ -8,4 +8,4 @@ Route::get('/', function () {
 });
 
 
-Route::post('/',[KXPOController::class,'submit']);
+Route::post('/',[KXPOController::class,'submit'])->name('calculate.kxpo');
